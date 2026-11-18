@@ -32,6 +32,14 @@ exit code: 1
 
 `--disable quota` and `--disable detection` fail the other two Tests the same way.
 
+## Visual demo
+
+[`extraction-guard/`](extraction-guard) is a Bref UI app that runs the same policy against
+a pull request. Toggle a defense off and watch every response stream in, then see the
+merge get blocked.
+
+![Extraction Guard](extraction-guard/screenshot.jpg)
+
 ## The policy
 
 [`agentests.security.yaml`](agentests.security.yaml) is the policy the demo runs.
